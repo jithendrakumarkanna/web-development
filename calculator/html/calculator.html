@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel = "stylesheet" href="../css/calculator.css">
+  </head>
+  <body>
+    <p class="js-result result"></p>
+    <p>
+      <button class="number" onclick="updatecalculation('1')">1</button>
+      <button class="number" onclick="updatecalculation('2')">2</button>
+      <button class="number" onclick="updatecalculation('3')">3</button>
+      <button class="operator" onclick="updatecalculation('+')">+</button>
+    </p>
+    <p>
+      <button class="number" onclick="updatecalculation('4')">4</button>
+      <button class="number" onclick="updatecalculation('5')">5</button>
+      <button class="number" onclick="updatecalculation('6')">6</button>
+      <button class="operator" onclick="updatecalculation('-')">-</button>
+    </p>
+    <p>
+      <button class="number" onclick="updatecalculation('7')">7</button>
+      <button class="number" onclick="updatecalculation('8')">8</button>
+      <button class="number" onclick="updatecalculation('9')">9</button>
+      <button class="operator" onclick="updatecalculation('*')">*</button>
+    </p>
+    <p>
+      <button class="number" onclick="updatecalculation('.')">.</button>
+      <button class="number" onclick="updatecalculation('0')">0</button>
+      <button class="number" onclick="calculate();">=</button>
+      <button class="operator" onclick="updatecalculation('/')">/</button>
+    </p>
+    <div class="row">
+      <button class="clearbutton" onclick="clearbutton()">clear</button>
+      <button class="space-btn"></button>
+      <button class="space-btn"></button>
+      <button class="operator" onclick="backspace()">⌫</button>
+    </div>
+    <script src="../js/calculator.js">
+      
+    </script>
+    
+  </body>
+</html>
